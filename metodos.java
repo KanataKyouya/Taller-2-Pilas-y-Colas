@@ -1,7 +1,12 @@
 import java.util.Scanner;
 import java.util.Stack;
+import java.util.Queue;
+import java.util.ArrayDeque;
 
-public class Utils {
+public class metodos {
+
+    Stack<Integer> pila = new Stack<>();
+    Queue<String> cola = new ArrayDeque<>(); 
 
     Scanner sc = new Scanner(System.in);
 
