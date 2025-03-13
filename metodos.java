@@ -48,8 +48,6 @@ public class metodos {
 
         return pila;
 
-        sc.close();
-
     }
 
     public void MostrarPila(Stack<Integer> pila){
